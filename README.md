@@ -40,13 +40,13 @@ Just replace system > cms > modules > widgets > libraries > Widgets.php by the e
 
 This modification works with :
 * A stand-alone widget (placed in the PyroCMS widget directory : system / cms / widgets)
-* A module's widget (simply, a widget provided by a module : system / cms / modules / <module-name> / widgets)
+* A module's widget (simply, a widget provided by a module : system / cms / modules / ’<module-name>’ / widgets)
 
 ## How can you do?
 
 The widget structure is generally like that :
-* <widget-name>/
-    * <widget-name>.php
+* ’<widget-name>’/
+    * ’<widget-name>’.php
     * views/
         * display.php
         * form.php
@@ -54,7 +54,7 @@ The widget structure is generally like that :
 Create a folder named "widgets" in your current theme's view folder.
 
 Ex :
-* addons > <site-ref> > themes > views > widgets
+* addons > ’<site-ref>’ > themes > views > widgets
 * shared_addons > themes > views > widgets
 
 Now, just create a new php file named by the module's name you want to overload.
