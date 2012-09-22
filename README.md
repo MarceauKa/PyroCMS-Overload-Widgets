@@ -45,8 +45,8 @@ This modification works with :
 ## How can you do?
 
 The widget structure is generally like that :
-* {<widget-name>}/
-    * {<widget-name>}.php
+* {widget-name}/
+    * {widget-name}.php
     * views/
         * display.php
         * form.php
@@ -54,7 +54,7 @@ The widget structure is generally like that :
 Create a folder named "widgets" in your current theme's view folder.
 
 Ex :
-* addons > {<site-ref>} > themes > views > widgets
+* addons > {site-ref} > themes > views > widgets
 * shared_addons > themes > views > widgets
 
 Now, just create a new php file named by the module's name you want to overload.
